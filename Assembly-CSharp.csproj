@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CharactersMoveController\PlayerMoveController.cs" />
     <Compile Include="Assets\Scripts\ScenesControllers\SpawnController.cs" />
+    <Compile Include="Assets\Scripts\CharactersMoveController\EnemysMoveController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

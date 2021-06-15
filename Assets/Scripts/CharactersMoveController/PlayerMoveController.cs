@@ -38,4 +38,9 @@ public class PlayerMoveController : MonoBehaviour
 
         player.Translate(playerInput * playerSpeed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Player colisiono ");
+    }
 }
