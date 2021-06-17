@@ -63,7 +63,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8322303f0fa11443938c505ad2fbd90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 0
+  xPlayerPos: 0
+  yPlayerPos: 0
+  xMePos: 0
+  yMePos: 0
+  distanceX: 0
+  distanceY: 0
+  denominador: 0
+  linelDistance: 0
+  enemySpeed: 2
+  enemyImage: {fileID: 8363348475106747078}
 --- !u!50 &7582022081221387671
 Rigidbody2D:
   serializedVersion: 4
@@ -79,7 +88,7 @@ Rigidbody2D:
   m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

@@ -341,4 +341,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8322303f0fa11443938c505ad2fbd90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 0
+  xPlayerPos: 0
+  yPlayerPos: 0
+  xMePos: 0
+  yMePos: 0
+  distanceX: 0
+  distanceY: 0
+  denominador: 0
+  linelDistance: 0
+  enemySpeed: 2
+  enemyImage: {fileID: 8463814740526010226}

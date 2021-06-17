@@ -43,4 +43,10 @@ public class PlayerMoveController : MonoBehaviour
     {
         Debug.Log("Player colisiono ");
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Col");
+    }
+
 }
